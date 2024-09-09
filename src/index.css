@@ -329,10 +329,10 @@ Toggle Container
 .toggle-container {
   width: var(--view-width);
   max-width: var(--max-width);
-  padding: 1rem 0;
   margin: 0 auto;
+  padding: 1rem 0;
   display: flex;
-  justify-content: end;
+  justify-content: flex-end;
 }
 
 .dark-toggle {
@@ -347,7 +347,7 @@ Toggle Container
 
 .toggle-icon {
   font-size: 1.5rem;
-  color: var(--textColor);
+  color: var(--textColor)
 }
 
 /* 
@@ -355,6 +355,7 @@ Toggle Container
 Search Form
 ========
 */
+
 .title {
   color: var(--primary-500);
 }
@@ -373,8 +374,6 @@ Search Form
   transition: var(--darkModeTransition);
   color: var(--textColor);
   border-radius: 0;
-
-  /* border-right: none; */
 }
 
 .search-form .btn {
@@ -383,7 +382,7 @@ Search Form
 
 .search-form .btn:hover {
   background: var(--primary-300);
-  color: var(--black);
+  color: var(--black)
 }
 
 /* 
@@ -397,7 +396,7 @@ Gallery
   max-width: var(--max-width);
   margin: 3rem auto;
   display: grid;
-  gap: 2rem;
+  gap: 2rem
 }
 
 .image-container .img {
